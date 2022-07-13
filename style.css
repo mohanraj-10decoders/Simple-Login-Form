@@ -1,0 +1,60 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+form{
+    background-color: white;
+    width: 40%;
+    min-width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+}
+form h3{
+    color: blue;
+    text-align: center;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+input{
+    height: 30px;
+    border-radius: 5px;
+}
+input:focus{
+    outline: 1px solid black;
+}
+button{
+    height: 30px;
+    background-color: blue;
+    color: white;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 10px 0;
+}
+button:hover{
+    cursor: pointer;
+}
+.footer{
+    font-size: 14px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+#error{
+    font-size: 12px;
+    color: red;
+    height: 10px;
+    margin: 0;
+}

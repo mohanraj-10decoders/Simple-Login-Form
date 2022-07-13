@@ -1,0 +1,11 @@
+button {
+  color: white;
+  font-family: sans-serif;
+  border: none;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+button:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=buttons.css.map */
